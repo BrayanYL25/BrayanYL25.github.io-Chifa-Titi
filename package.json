@@ -1,0 +1,12 @@
+{
+  "name": "chifa-titi",
+  "version": "1.0.0",
+  "description": "Chifa Titi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Brayan Yin Lin, Maryse Vasques, Jorge Quevedo, Alison Sanchez",
+  "license": "ISC"
+}
