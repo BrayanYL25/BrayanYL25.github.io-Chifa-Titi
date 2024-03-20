@@ -4,6 +4,7 @@
 }
 :root{
     font-size: 20px;
+    --time-hidden: 0.5s;
 }
 .content-video{
     background: url(../images/video/thumb-vid-1.jpeg) center 77%;
@@ -37,4 +38,40 @@
 
 #nav a:hover{
     color: #B81820;
+}
+
+
+.fondo-notice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 998;
+}
+.educational-alert {
+    z-index: 999;
+    place-content: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.educational-alert button {
+    background-color: #B81820;
+    color: #fff;
+}
+
+.hidden {
+    animation: hide var(--time-hidden) ease-in-out;
+}
+
+.real-hidden {
+    display: none;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.0;
+    }
 }
